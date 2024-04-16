@@ -18,3 +18,8 @@
 
 ## Первый зал. Символы Чувашии и их значение
 ![image](https://github.com/TatyaG/viktorina/assets/110471576/3ce96144-d9de-45c1-8bd8-3685280444e7)
+
+## Второй зал. Художественная галерея
+
+![image](file:///C:/Users/Admin/Downloads/Первая%20игра%20второго%20зала.jpg)
+
