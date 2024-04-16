@@ -19,7 +19,31 @@
 ## Первый зал. Символы Чувашии и их значение
 ![image](https://github.com/TatyaG/viktorina/assets/110471576/3ce96144-d9de-45c1-8bd8-3685280444e7)
 
-## Второй зал. Художественная галерея
+## Второй зал. Художественная галерея. Собери пазл
 
 ![image](https://github.com/yuliapalamarchuk/gameMuseumWorld/blob/main/Первая%20игра%20второго%20зала.jpg)
+
+## Второй зал. Художественная галерея. Найди лишнее
+
+![image](https://github.com/yuliapalamarchuk/gameMuseumWorld/blob/main/%D0%92%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%B8%D0%B3%D1%80%D0%B0%20%D0%B2%D1%82%D0%BE%D1%80%D0%BE%D0%B3%D0%BE%20%D0%B7%D0%B0%D0%BB%D0%B0.jpg)
+
+## Второй зал. Художественная галерея. Узнай картину по описанию
+
+![image](https://github.com/yuliapalamarchuk/gameMuseumWorld/blob/main/%D0%A2%D1%80%D0%B5%D1%82%D1%8C%D1%8F%20%D0%B8%D0%B3%D1%80%D0%B0%20%D0%B2%D1%82%D0%BE%D1%80%D0%BE%D0%B3%D0%BE%20%D0%B7%D0%B0%D0%BB%D0%B0.jpg)
+
+## Третий зал. Таланты Чувашской земли. Видеовопрос от школьника
+
+![image](https://github.com/yuliapalamarchuk/gameMuseumWorld/blob/main/%D0%9F%D0%B5%D1%80%D0%B2%D0%B0%D1%8F%20%D0%B8%D0%B3%D1%80%D0%B0%20%D1%82%D1%80%D0%B5%D1%82%D1%8C%D0%B5%D0%B3%D0%BE%20%D0%B7%D0%B0%D0%BB%D0%B0.jpg)
+
+## Третий зал. Таланты Чувашской земли. Филворд
+
+![image](https://github.com/yuliapalamarchuk/gameMuseumWorld/blob/main/%D0%92%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%B8%D0%B3%D1%80%D0%B0%20%D1%82%D1%80%D0%B5%D1%82%D1%8C%D0%B5%D0%B3%D0%BE%20%D0%B7%D0%B0%D0%BB%D0%B0.jpg)
+
+## Третий зал. Таланты Чувашской земли. Лабиринт
+
+![image](https://github.com/yuliapalamarchuk/gameMuseumWorld/blob/main/%D0%A2%D1%80%D0%B5%D1%82%D1%8C%D1%8F%20%D0%B8%D0%B3%D1%80%D0%B0%20%D1%82%D1%80%D0%B5%D1%82%D1%8C%D0%B5%D0%B3%D0%BE%20%D0%B7%D0%B0%D0%BB%D0%B0.jpg)
+
+
+
+
 
