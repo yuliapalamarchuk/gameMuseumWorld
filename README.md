@@ -21,5 +21,5 @@
 
 ## Второй зал. Художественная галерея
 
-![image](file:///C:/Users/Admin/Downloads/Первая%20игра%20второго%20зала.jpg)
+![image](https://github.com/yuliapalamarchuk/gameMuseumWorld/blob/main/Первая%20игра%20второго%20зала.jpg)
 
