@@ -1,0 +1,759 @@
+body {
+  background-image: none;
+}
+
+.final {
+  max-width: 1920px;
+  padding: 78px 40px 40px 40px;
+  margin: 0 auto;
+  position: relative;
+  background-image: url(../img/final-background.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  overflow: hidden;
+}
+
+.logo {
+  position: absolute;
+  top: 40px;
+  padding-left: 0;
+}
+
+.logo-link {
+  cursor: pointer;
+}
+
+.final-title {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title_h1 {
+  font-family: Mak;
+  position: static;
+  width: fit-content;
+}
+
+.final-content {
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.final_assistent-name {
+  position: absolute;
+  top: 34.5%;
+  left: 34.5%;
+  color: #f7eafc;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.final_assistent-text {
+  position: absolute;
+  top: 53%;
+  left: 15%;
+  max-width: 312px;
+  color: #232962;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 120%;
+}
+
+.final_assistant-perrot {
+  position: relative;
+  top: -35%;
+}
+
+.perrot-btn {
+  position: absolute;
+  bottom: 15%;
+  left: 32%;
+  gap: 20px;
+  align-items: center;
+}
+
+.perrot_textbtn {
+  font-size: 16px;
+  color: rgba(35, 41, 98, 1);
+}
+
+.perrot-btn_img {
+  width: 50px;
+  height: 40px;
+  background-image: url(../img/button_arrow.png);
+  background-position: center;
+}
+
+.perrot-btn_img:hover {
+  background-image: url(../img/button_arrow-hover.png);
+}
+
+.final-center {
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  width: 38.1%;
+}
+
+.center_img {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -28%;
+}
+
+.center_text,
+.center_buttons {
+  position: relative;
+  z-index: 1;
+}
+
+.game__point_final {
+  width: max-content;
+  top: 28%;
+  left: 30px;
+  right: 0;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.center_text {
+  padding-top: 35px;
+  margin-bottom: 240px;
+  font-family: Comfortaa;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 54px;
+  color: #fff;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+
+.center_buttons {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.game__point_final::before {
+  left: -20%;
+}
+
+.game__point_mark::before {
+  left: -25%;
+}
+
+.final-right {
+  width: 25.5%;
+  flex-direction: column;
+}
+
+.final-left {
+  width: 25.5%;
+  flex-direction: column;
+  align-items: end;
+}
+
+.final_deniska {
+  top: -35%;
+  position: relative;
+}
+
+.deniska_name {
+  position: absolute;
+  top: 47.5%;
+  left: 38.5%;
+}
+
+.deniska_text {
+  position: absolute;
+  top: 65%;
+  left: 17%;
+}
+
+.IT-logo__title {
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  bottom: 0;
+  justify-content: space-between;
+  position: relative;
+  padding: 0;
+  z-index: 1;
+}
+
+.footer__text {
+  color: #fff;
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.IT-logo {
+  align-items: center;
+}
+
+.IT-logo__text {
+  margin-right: 8px;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.IT-logo img {
+  margin-right: 8px;
+}
+
+.IT-logo__title a {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.IT-logo__title span {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+}
+
+.footer__container {
+  max-width: 290px;
+}
+
+/* Адаптив */
+
+@media (max-width: 1800px) {
+  .final_assistant-perrot {
+    top: -15%;
+  }
+
+  .final_deniska {
+    top: -15%;
+  }
+
+  .center_img {
+    height: 150%;
+  }
+}
+
+@media (max-width: 1750px) {
+  .final-btns {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .final {
+    padding: 150px 40px 40px 40px;
+  }
+
+  .final-center {
+    width: 45%;
+  }
+
+  .final-btns {
+    padding: 12px 63px;
+    font-size: 20px;
+  }
+
+  .game__point_final {
+    padding: 4px 24px;
+    font-size: 24px;
+  }
+
+  .game__point_final::before {
+    left: -25%;
+    width: 60px;
+    height: 60px;
+    top: -33.5%;
+    background-image: url(../img/point_tablet.svg);
+  }
+
+  .final_assistent-name {
+    font-size: 18px;
+  }
+
+  .final_assistent-name {
+    left: 35%;
+  }
+
+  .final_assistent-text {
+    left: 12%;
+    max-width: 256px;
+    font-size: 16px;
+  }
+
+  .perrot-btn {
+    bottom: 16.5%;
+    left: 23%;
+  }
+
+  .deniska_text {
+    left: 15%;
+  }
+
+  .logo-img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .footer__text,
+  .IT-logo__text {
+    font-size: 12px;
+  }
+
+  .IT-logo__title {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .title_h1 {
+    font-size: 48px;
+  }
+
+  .center_text {
+    margin-bottom: 140px;
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .game__point_final {
+    top: 53%;
+  }
+
+  .center_img {
+    height: 160%;
+    top: -10%;
+  }
+
+  .final-content {
+    margin-bottom: 100px;
+  }
+
+  .final-center {
+    width: 48%;
+  }
+
+  .center_div {
+    margin-top: 150px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .final-center {
+    width: 50%;
+  }
+
+  .final_assistent-name {
+    left: 34%;
+  }
+
+  .final-left,
+  .final-right {
+    width: auto;
+  }
+
+  .final_assistant-perrot,
+  .final_deniska {
+    position: absolute;
+  }
+
+  .final_deniska {
+    top: 35%;
+    right: 5%;
+  }
+
+  .final_assistant-perrot {
+    top: 35%;
+    left: 5%;
+    z-index: 1;
+  }
+
+  .final-content {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1300px) {
+  .final-center {
+    width: 55%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .final-center {
+    width: 60%;
+  }
+
+  .footer__text,
+  .IT-logo__text {
+    font-size: 12px;
+  }
+
+  .IT-logo__title {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .final {
+    padding: 203px 40px 20px 40px;
+    background-image: url(../img/final-background_tablet.webp);
+  }
+
+  .center_img {
+    display: none;
+  }
+
+  .logo {
+    padding-left: 0;
+  }
+
+  .final_assistant-perrot {
+    top: 33%;
+    left: 30px;
+  }
+
+  .final_deniska {
+    top: 34%;
+    right: 30px;
+  }
+
+  .final-content {
+    margin-bottom: 120px;
+  }
+
+  .center_text {
+    padding-top: 286px;
+  }
+
+  .game__point_final {
+    top: 70%;
+  }
+
+  .footer__container {
+    max-width: 221px;
+  }
+
+  .footer {
+    padding-bottom: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .game__point_final {
+    position: absolute;
+  }
+
+  .game__point_final::before {
+    background-size: 60px;
+  }
+
+  .final_assistant-perrot,
+  .final_deniska {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .logo {
+    position: absolute;
+    top: 12px;
+  }
+
+  .final {
+    padding: 60px 13px 10px 13px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .final_assistent-name {
+    top: 25%;
+    left: 36%;
+  }
+
+  .deniska_name {
+    top: 37.5%;
+    left: 38%;
+  }
+
+  .final_assistent-text {
+    top: 42%;
+    max-width: 281px;
+    font-size: 14px;
+  }
+
+  .deniska_text {
+    top: 50%;
+    left: 10%;
+  }
+
+  .perrot-btn {
+    bottom: 36%;
+    left: 30%;
+  }
+
+  .perrot-btn_mobile {
+    position: absolute;
+    bottom: 17.5%;
+    left: 30%;
+  }
+
+  .deniska-btn_mobile {
+    position: absolute;
+    bottom: 20.5%;
+    left: 30%;
+  }
+
+  .center_text {
+    margin-bottom: 100px;
+    padding-top: 0;
+  }
+
+  .final-btns {
+    padding: 16px 56px;
+    font-size: 14px;
+  }
+
+  .center_buttons {
+    gap: 10px;
+  }
+
+  .game__point_final {
+    top: 41%;
+  }
+
+  .game__point_final {
+    padding: 5px 20px;
+    font-size: 20px;
+  }
+
+  .game__point_final::before {
+    left: -30%;
+    top: -37%;
+  }
+
+  .game__point_mark::before {
+    left: -35%;
+  }
+
+  .final-content {
+    margin-bottom: auto;
+    flex-grow: 1;
+  }
+
+  .center_div {
+    margin-top: 115px;
+  }
+
+  .btn-download {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    background-image: url(../img/arrow-pdf.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 6px;
+  }
+
+  .title_h1 {
+    font-size: 36px;
+  }
+
+  .footer {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .title_h1 {
+    font-size: 20px;
+  }
+
+  .logo-img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .final {
+    background-image: url(../img/final-background_mobile.webp);
+    background-size: cover;
+  }
+
+  .center_img {
+    display: block;
+    height: 80%;
+    top: 30%;
+  }
+
+  .footer__text,
+  .IT-logo__text {
+    font-size: 10px;
+    line-height: 120%;
+  }
+
+  .footer {
+    position: static;
+    padding: 0 20px 30px 20px;
+    align-items: center;
+  }
+
+  .footer__text {
+    line-height: 12px;
+    display: inline-block;
+  }
+
+  .footer__container {
+    max-width: 150px;
+  }
+
+  .IT-logo__text {
+    margin-right: 0;
+    margin-bottom: 4px;
+    font-size: 10px;
+  }
+
+  .IT-logo {
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .IT-logo img {
+    width: 57px;
+  }
+
+  .final_deniska,
+  .final-btns {
+    z-index: 1;
+  }
+
+  .game__point_final {
+    top: 31%;
+  }
+
+  .final-center {
+    width: 80%;
+  }
+
+  .center_text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .center_img {
+    height: 80%;
+    /* top: 25%; */
+  }
+}
+
+@media (max-width: 375px) {
+  .center_img {
+    top: 29%;
+  }
+
+  .title_h1 {
+    margin-bottom: 0;
+  }
+
+  .final_assistant-perrot {
+    padding-top: 10px;
+    margin-bottom: 25px;
+  }
+
+  /* .final {
+    min-height: auto;
+  } */
+
+  .final_deniska {
+    margin-bottom: 80px;
+  }
+
+  .final-right {
+    padding-top: 35px;
+  }
+
+  .final_assistent-name {
+    top: 26.5%;
+  }
+
+  .final-center {
+    margin-bottom: 106px;
+  }
+
+  .center_div {
+    margin-bottom: 0;
+    margin-top: 0;
+    position: absolute;
+    top: 45%;
+  }
+
+  .center_text {
+    margin-bottom: 95px;
+  }
+
+  .game__point_final {
+    top: 25%;
+    left: 18px;
+  }
+
+  .center_buttons {
+    gap: 8px;
+  }
+
+  .footer {
+    padding: 0 5px 24px 5px;
+  }
+}
+
+@media (max-width: 360px) {
+  .center_img {
+    top: 21.5%;
+  }
+
+  .deniska_text {
+    left: 9%;
+  }
+
+  .final_assistant-perrot {
+    padding-top: 0;
+    margin-bottom: 17.07px;
+  }
+
+  .final_deniska {
+    margin-bottom: 69px;
+  }
+
+  .final-right {
+    padding-top: 26.2px;
+  }
+
+  .final-center {
+    margin-bottom: 93px;
+  }
+
+  .center_div {
+    top: 35%;
+  }
+}

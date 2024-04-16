@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир музеев</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="Favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <div class="logo">
+            <a href="http://nsds1.ru/" target="_blank">
+                <picture>
+                    <source srcset="img/logo_mobile.svg" media="(max-width: 576px)">
+                    <source srcset="img/logo_tablet.svg" media="(max-width: 1024px)">
+                    <img src="img/logo.svg" alt="logo">
+                </picture>
+            </a>
+        </div>
+
+        <section class="container content flex">
+            <div class="content__left">
+                <picture>
+                    <source srcset="img/background_3_tablet.png" media="(max-width: 1024px)">
+                    <img class="img_left" src="img/background_3_desktop.png" alt="Дворец">
+                </picture>
+            </div>
+
+            <div class="content__center">
+                <picture>
+                    <source srcset="img/Castle_mobile.png" media="(max-width: 576px)">
+                    <source srcset="img/Castle_tablet.png" media="(max-width: 1200px)">
+                    <img src="img/Castle_desktop.png" alt="">
+                </picture>
+            </div>
+
+            <div class="content__right flex">
+                <a href="rules.html">
+                    <div class="game flex">
+                        <picture>
+                            <source srcset="img/star_mobile.png" media="(max-width: 360px)">
+                            <source srcset="img/star_tablet.png" media="(max-width: 1200px)">
+                            <img class="game__img" src="img/star_decktop.png" alt="Звезда">
+                        </picture>
+                        <button class="btn-reset btn_game">Начать игру</button>
+                    </div>
+                </a>
+
+                <div class="boy">
+                    <picture class="boy__img">
+                        <source srcset="img/Deniska_mobile.png" media="(max-width: 576px)">
+                        <source srcset="img/Deniska_tablet.png" media="(max-width: 1024px)">
+                        <img class="boy__Deniska" src="img/Deniska_desktop.png" alt="Дениска">
+                    </picture>
+                </div>
+            </div>
+
+            <div class="title">
+                <div class="title_container">
+                    <h1 class="title_h1">Открывая мир</h1>
+                    <picture>
+                        <source srcset="img/text_mobile.png" media="(max-width: 576px)">
+                        <source srcset="img/text_tablet.png" media="(max-width: 1366px)">
+                        <img src="img/text_desktop.png" alt="">
+                    </picture>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer flex">
+        <div class="footer__container">
+            <small class="footer__text">&copy;&nbsp;2023 «Чебоксарская<br>НОШ для обучающихся с&nbsp;ОВЗ
+                &#8470;&nbsp;1» Минобразования Чувашии</small>
+        </div>
+
+        <div class="flex footer_contacts">
+            <a href="https://www.viktorina.sprint.1t.ru/museum/web/index.php" class="btn-reset btn-enter footer__text">Вход</a>
+            <div class="IT-logo flex">
+                <small class="IT-logo__text">Сделано в: </small>
+                <div class="IT-logo__column flex">
+                    <a href="https://xn--g1ani7c.xn--p1ai/" target="_blank">
+                        <img src="img/logo_1T.svg" alt="logo 1T">
+                    </a>
+                    <small class="IT-logo__title"> | <a
+                            href="https://xn--g1ani7c.xn--p1ai/my/teams/space/2989122108225482194?name=ITitans&space=610"
+                            target="_blank">ITitans</a></small>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

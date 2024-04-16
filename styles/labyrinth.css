@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    position: relative;
+
+}
+
+.canvas {
+    width: 938px;
+    height: 721px;
+    background: #D7BDF1;
+    border-radius: 50px;
+}
+
+.labyrinth-game {
+    background: url(../img/background_labyrinth.png) no-repeat center center fixed;
+    background-size: 100% 100%;
+}
+
+.game__block-labyrinth {
+    display: flex;
+    justify-content: space-around;
+}
+
+.game__left-labyrinth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    padding-top: 16rem;
+}
+
+.game__center-labyrinth {
+    position: relative;
+}
+
+.game-btn-accept-lab {
+    border: none;
+}
+
+.museum {
+    font-family: 'Comfortaa';
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 219px;
+    text-align: center;
+    background-image: url(../img/museum-labyrinth.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    width: 120%;
+    height: 100px;
+    padding-top: 20px;
+    position: absolute;
+    right: 16rem;
+    top: -3rem;
+    user-select: none;
+}
+
+.museum-end {
+    font-family: 'Comfortaa';
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 296px;
+    text-align: center;
+    background-image: url(../img/museum-end-labyrinth.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    width: 150%;
+    height: 100px;
+    padding-top: 20px;
+    position: absolute;
+    bottom: -2rem;
+    right: 3rem;
+    user-select: none;
+}
+
+.museumText {
+    display: block;
+    max-width: 217px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1500px) {
+    .game__block-labyrinth {
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+
+    .game__center-labyrinth {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto !important;
+
+    }
+
+    .game__left-labyrinth {
+        margin: 2rem 0 5rem 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    #canvas {
+        width: 703px !important;
+        height: 510px !important;
+    }
+}
+
+@media (max-width: 780px) {
+    .game__title-labyrinth {
+        max-width: 360px !important;
+    }
+
+    .game__left-labyrinth {
+        padding-top: 8rem;
+    }
+
+    .game__block-labyrinth {
+        flex-direction: column-reverse;
+    }
+    #canvas {
+        width: 326px !important;
+        height: 308px !important;
+    }
+    .museum{
+        width: 117px;
+        height: 47px;
+        font-size: 8px;
+        padding-top: 10px;
+        right: 5rem;
+        top: -35px;
+    }
+    .museum-end {
+        font-family: 'Comfortaa';
+        color: #ffff;
+        font-size: 8px;
+        font-weight: 400;
+        max-width: 296px;
+        text-align: center;
+        background-image: url(../img/museum-end-labyrinth.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: contain;
+        width: 170px;
+        height: 70px;
+        padding-top: 8px;
+        position: absolute;
+        bottom: -2rem;
+        right: -1rem;
+        user-select: none;
+    }
+    .museumText{
+        max-width: 121px;
+    }
+
+}
+.game__block-labyrinth {
+  display: flex;
+  justify-content: space-around;
+}
+
+.game__left-labyrinth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+  padding-top: 16rem;
+}
+
+@media (max-width: 1500px) {
+  .game__block-labyrinth {
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+  .game__center-labyrinth {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 780px) {
+  .game__title-labyrinth {
+    max-width: 360px !important;
+  }
+  .game__left-labyrinth {
+    padding-top: 8rem;
+  }
+  .game__block-labyrinth {
+    flex-direction: column-reverse;
+  }
+}

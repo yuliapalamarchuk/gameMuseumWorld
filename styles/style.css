@@ -1,0 +1,600 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p,
+h1 {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Mak";
+  src: local("Mak"), url("../fonts/Mak-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: local("Comfortaa"), url("../fonts/Comfortaa-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), url("../fonts/Inter-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  position: relative;
+  background-image: url(../img/background_1_desktop.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Mak", sans-serif;
+  font-weight: 700;
+}
+
+/* global */
+
+.flex {
+  display: flex;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1920px;
+  padding: 0 186px;
+  padding-top: 48px;
+  margin: 0 auto;
+}
+
+/* ------- */
+
+.logo {
+  position: absolute;
+  padding-top: 40px;
+  padding-left: 32px;
+}
+
+.IT-logo__column {
+  align-items: center;
+}
+
+.footer_contacts {
+  align-items: center;
+}
+
+.content {
+  gap: 82px;
+}
+
+.content__left {
+  position: relative;
+  width: 21.25%;
+}
+
+.img_left {
+  position: absolute;
+  top: 27%;
+}
+
+.content__center {
+  width: 57.5%;
+}
+
+.content__right {
+  width: 21.25%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.game {
+  margin-bottom: 20px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-top: -54px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.game__img {
+  position: relative;
+  transition: transform 0.5s ease-in-out;
+}
+
+.game__img:hover {
+  transform: rotate(90deg);
+}
+
+.btn_game {
+  position: absolute;
+  max-width: 155px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 1px 1px #2633a1;
+  font-size: 36px;
+  line-height: normal;
+  letter-spacing: 1.8px;
+}
+
+.boy {
+  position: relative;
+  min-height: 318px;
+  background-image: url(../img/background_2_desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  overflow: hidden;
+}
+
+.boy__img {
+  position: absolute;
+  bottom: 1%;
+  right: 4%;
+}
+
+.boy__Deniska {
+  border-radius: 125px;
+}
+
+.title {
+  position: absolute;
+  top: 24%;
+  right: 19%;
+}
+
+.title_container {
+  position: relative;
+}
+
+.title_h1 {
+  width: 100%;
+  position: absolute;
+  top: 24%;
+  left: 25%;
+  color: #fffeff;
+  font-size: 64px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 5.76px;
+}
+
+.footer {
+  padding: 0 40px 40px 40px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  justify-content: space-between;
+}
+
+.footer__container {
+  max-width: 290px;
+}
+
+.btn-enter {
+  margin-right: 32px;
+}
+
+.footer__text {
+  color: #fff;
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.IT-logo {
+  align-items: center;
+}
+
+.IT-logo__text {
+  margin-right: 8px;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.IT-logo img {
+  margin-right: 8px;
+}
+
+.IT-logo__title {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* Адаптив */
+
+@media (max-width: 1700px) {
+  .container {
+    padding: 0 40px;
+    padding-top: 190px;
+  }
+
+  .title {
+    right: 17%;
+  }
+}
+
+@media (max-width: 1600px) {
+  .title {
+    width: 920px;
+    right: 22%;
+    top: 15%;
+  }
+
+  .img_left {
+    top: 34%;
+  }
+
+  .game {
+    margin-top: -100px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .content {
+    gap: 20px;
+  }
+
+  .title_h1 {
+    width: auto;
+    font-size: 48px;
+  }
+
+  .title {
+    right: 10%;
+  }
+
+  .boy__img {
+    right: -3%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding-top: 255px;
+  }
+
+  .content__center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn_game {
+    font-size: 32px;
+  }
+
+  .boy {
+    background-image: url(../img/background_2_tablet.png);
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    right: 0;
+    top: 13%;
+  }
+
+  .boy {
+    min-height: 255px;
+  }
+
+  .footer__text,
+  .IT-logo__text {
+    font-size: 12px;
+  }
+
+  .IT-logo__title {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    background-image: url(../img/background_1_tablet.webp);
+    background-position: center;
+  }
+
+  .container {
+    padding-top: 470px;
+  }
+
+  .logo {
+    padding-left: 40px;
+  }
+
+  .IT-logo img {
+    width: 62px;
+  }
+
+  .title {
+    right: 0;
+    top: 11%;
+  }
+
+  .title_h1 {
+    top: 19%;
+    left: 15%;
+    letter-spacing: 4px;
+  }
+
+  .content__left,
+  .content__right {
+    width: 26%;
+  }
+
+  .img_left {
+    top: 38%;
+  }
+
+  .boy {
+    min-height: 244px;
+  }
+
+  .footer {
+    padding-bottom: 14px;
+  }
+
+  .footer__container {
+    max-width: 190px;
+}
+
+  .footer_contacts {
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .btn-enter {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .title {
+    top: 14%;
+  }
+
+  .btn_game {
+    font-size: 26px;
+  }
+
+  .game__img:hover {
+    transform: rotate(0);
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .container {
+    padding: 0 20px;
+    padding-top: 370px;
+  }
+
+  .content__left {
+    display: none;
+  }
+
+  .title {
+    left: 2.5%;
+  }
+
+  .content {
+    justify-content: center;
+  }
+
+  .content__right {
+    width: 30%;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    height: 100vh;
+    background-size: auto;
+  }
+
+  .container {
+    padding: 0 20px;
+    padding-top: 250px;
+  }
+
+  .boy {
+    width: 160px;
+    min-height: 157px;
+    background-image: url(../img/background_2_mobile.png);
+    background-size: contain;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .content__right,
+  .content__center {
+    width: 100%;
+  }
+
+  .title {
+    top: 12.5%;
+    left: 0;
+  }
+
+  .title_h1 {
+    top: 30%;
+    left: 25%;
+    font-size: 20px;
+  }
+
+  .content__right {
+    margin-top: -100px;
+    margin-bottom: 25px;
+    gap: 8px;
+    flex-direction: row-reverse;
+  }
+
+  .game {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 157px;
+    height: 157px;
+    align-items: center;
+  }
+
+  .boy__img {
+    right: 0;
+    bottom: 4.8%;
+  }
+
+  .footer {
+    position: static;
+    padding: 0 20px 30px 20px;
+    align-items: center;
+  }
+
+  .footer__text,
+  .IT-logo__title {
+    font-size: 10px;
+    line-height: 120%;
+  }
+
+  .footer__text {
+    line-height: 12px;
+    display: inline-block;
+  }
+
+  .btn-enter {
+    margin-bottom: 4px;
+  }
+
+  .footer__container {
+    max-width: 155px;
+  }
+
+  .IT-logo__text {
+    margin-right: 0;
+    margin-bottom: 4px;
+    font-size: 10px;
+  }
+
+  .IT-logo {
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .IT-logo img {
+    width: 57px;
+  }
+
+  .btn_game {
+    font-size: 20px;
+  }
+}
+
+/* @media (min-width: 376px) and (max-width: 575px) {
+  body {
+    height: 100vh;
+  }
+} */
+
+@media (max-width: 375px) {
+  .title_container {
+    left: 8px;
+  }
+
+  .title_h1 {
+    left: 22%;
+    letter-spacing: 2px;
+  }
+
+  .logo {
+    padding-left: 20px;
+    padding-top: 11px;
+  }
+
+  .IT-logo__text {
+    margin-bottom: 6px;
+  }
+
+  .footer {
+    padding: 0 20px 24px 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    height: 100vh;
+  }
+
+  .title {
+    left: -2%;
+    top: 26%;
+  }
+
+  .container {
+    padding: 0 20px;
+    padding-top: 64px;
+  }
+
+  .content__center {
+    margin-bottom: 130px;
+  }
+
+  .content__right {
+    margin-top: -230px;
+  }
+
+  .title_container {
+    left: 2px;
+    top: -45px;
+  }
+}
+
+@media (max-width: 360px) {
+  body {
+    background-image: url(../img/background_1_mobile.webp);
+    background-size: cover;
+  }
+}

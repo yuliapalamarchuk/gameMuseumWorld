@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Правила</title>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="rules-slider.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/rules.css">
+    <link rel="icon" href="Favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <div class="rules_container">
+            <h1 class="rules_title">Правила</h1>
+
+            <div class="flex rules_img_container">
+                <img class="rules_img1" src="img/rules_foto1_desktop.webp" alt="Дворец">
+                <picture>
+                    <source srcset="img/rules_foto_mobile.webp" media="(max-width: 375px)">
+                    <source srcset="img/rules_foto_tablet.webp" media="(max-width: 1200px)">
+                    <img class="rules_img2" src="img/rules_foto2_desktop.webp" alt="Дворец">
+                </picture>
+                <img class="rules_img3" src="img/rules_foto3_desktop.webp" alt="Дворец">
+            </div>
+
+            <div class="assistant-perrot">
+                <picture class="assistant_img">
+                    <source srcset="img/Govorusha_mobile.webp" media="(max-width: 768px)">
+                    <source srcset="img/Govorusha_tablet.webp" media="(max-width: 1200px)">
+                    <img src="img/Govorusha_desktop.webp" alt="Говоруша">
+                </picture>
+                <p class="assistant-name assistant-name_parrot">Говоруша</p>
+                <p class="assistant-text assistant-text_parrot">Привет! Я&nbsp;твой проводник по&nbsp;виртуальному
+                    музею.</p>
+            </div>
+
+            <div class="assistant-boy">
+                <picture class="assistant_img">
+                    <source srcset="img/Deniska_mobile.webp" media="(max-width: 360px)">
+                    <source srcset="img/Deniska_tablet.webp" media="(max-width: 1200px)">
+                    <img src="img/Deniska_desktop.webp" alt="Дениска">
+                </picture>
+                <p class="assistant-name assistant-name_boy">Дениска</p>
+
+                <div>
+                    <p class="assistant-text assistant-text_part1">Ты&nbsp;побываешь в&nbsp;трёх залах:</p>
+                    <ul class="assistant-list list-reset">
+                        <li class="assistant-item">Краеведческий калейдоскоп</li>
+                        <li class="assistant-item">Художественная галерея</li>
+                        <li class="assistant-item">Таланты чувашской земли</li>
+                    </ul>
+                    <p class="assistant-text assistant-text_part2">В&nbsp;каждом зале по&nbsp;3&nbsp;игры.</p>
+                    <p class="assistant-text assistant-text_part3">Нажимай &laquo;Играть&raquo;, и&nbsp;перед тобой
+                        появятся задания. После успешного прохождения игры начисляется балл&nbsp;&mdash; солнце. Набрав
+                        3&nbsp;и&nbsp;более баллов, в&nbsp;конце путешествия ты&nbsp;получаешь приз.</p>
+                </div>
+            </div>
+
+            <a href="index.html" class="btn-reset btn_rules">Играть</a>
+
+            <!-- Слайдер -->
+
+            <div class="rules-swiper swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="assistant-perrot_slide">
+                            <img class="assistant_img" src="img/Govorusha_mobile.webp" alt="Говоруша">
+                            <p class="assistant-name assistant-name_parrot">Говоруша</p>
+                            <p class="assistant-text assistant-text_parrot">Привет! Я&nbsp;твой проводник
+                                по&nbsp;виртуальному
+                                музею.</p>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="assistant-boy_slide">
+                            <img class="assistant_img" src="img/Deniska_mobile.webp" alt="Дениска">
+                            <p class="assistant-name assistant-name_boy">Дениска</p>
+
+                            <div>
+                                <p class="assistant-text assistant-text_part1">Ты&nbsp;побываешь в&nbsp;трёх залах:</p>
+                                <ul class="assistant-list list-reset">
+                                    <li class="assistant-item">Краеведческий калейдоскоп</li>
+                                    <li class="assistant-item">Художественная галерея</li>
+                                    <li class="assistant-item">Таланты чувашской земли</li>
+                                </ul>
+                                <p class="assistant-text assistant-text_part2">В&nbsp;каждом зале по&nbsp;3&nbsp;игры.
+                                </p>
+                                <p class="assistant-text assistant-text_part3">Нажимай &laquo;Играть&raquo;, и&nbsp;перед
+                                    тобой появятся задания. После успешного прохождения игры начисляется
+                                    балл&nbsp;&mdash; солнце. Набрав 3&nbsp;и&nbsp;более баллов, в&nbsp;конце
+                                    путешествия ты&nbsp;получаешь приз.</p>
+                            </div>
+                            <div class="swiper-button-next swiper-button-next_2"></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="index.html" class="btn-reset btn_rules__slider">Играть</a>
+                    </div>
+                </div>
+                <!-- <div class="swiper-button-prev"></div> -->
+            </div>
+
+            <!-- ------- -->
+
+        </div>
+    </main>
+</body>
+
+</html>
